@@ -33,6 +33,7 @@ with tab1:
     figm, ax = plt.subplots()
     ax.title.set_text(ticker)
     ax.plot(df['Close'], 'xkcd:crimson')
+    plt.xticks(rotation = 42.0)
     st.pyplot(figm) 
 
 # plotly
